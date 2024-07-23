@@ -47,9 +47,9 @@
 ```
 
 10. 发布 npm 包
-    - npm version patch
+    - npm version patch (major:重大更新版本,minor:主要更新版本,patch:补丁更新版本)
     - npm publish
-11. 新项目中安装依赖，使用命令：npm install vue-as-lib@0.0.1
+11. 新项目中安装依赖，使用命令：npm install vue-as-lib@0.0.2
 12. 使用新依赖包
     - 安装新的依赖包
     - 引入 style.css,在 main.ts 中引入 import 'vue-as-lib/dist/style.css';;

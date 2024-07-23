@@ -2,7 +2,7 @@
   "name": "vue-as-lib",
   "private": false,
   "author": "almostSir",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "module",
   "files": [
     "dist"
@@ -26,8 +26,7 @@
   },
   "dependencies": {
     "element-plus": "^2.7.7",
-    "vue": "^3.4.31",
-    "vue-as-lib": "file:vue-as-lib-0.0.1.tgz"
+    "vue": "^3.4.31"
   },
   "devDependencies": {
     "@types/node": "^20.14.11",
