@@ -24,8 +24,8 @@ export default defineConfig({
     lib: {
       // 注意此处的路径要配置正确
       entry: path.resolve('packages/index.ts'),
-      name: 'vue-lib',
-      fileName: (format) => `vue-lib.${format}.js`
+      name: 'vue-as-lib',
+      fileName: (format) => `vue-as-lib.${format}.js`
     },
     // 自定义构建配置，可直接调整底层Rollup选项；Rollup有一套预设
     // https://rollupjs.org/guide/en/#big-list-of-options

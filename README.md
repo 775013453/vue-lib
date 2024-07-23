@@ -1,4 +1,4 @@
-# vue-lib(基于 vue3 基础框架搭建的 vue-lib 公共组件库)
+# vue-as-lib(基于 vue3 基础框架搭建的 vue-as-lib 公共组件库)
 
 ### author: almostSir，date：2024-07-23
 
@@ -35,7 +35,7 @@
   </template>
 
   <script lang="ts" setup>
-    import { AButton } from 'dist/vue-lib.es.js';
+    import { AButton } from 'dist/vue-as-lib.es.js';
 
     function clickHandle() {
       console.log('button click!');
@@ -49,10 +49,10 @@
 10. 发布 npm 包
     - npm version patch
     - npm publish
-11. 新项目中安装依赖，使用命令：npm install vue-lib@0.0.1
+11. 新项目中安装依赖，使用命令：npm install vue-as-lib@0.0.1
 12. 使用新依赖包
     - 安装新的依赖包
-    - 引入 style.css,在 main.ts 中引入 import 'vue-lib/dist/style.css';;
+    - 引入 style.css,在 main.ts 中引入 import 'vue-as-lib/dist/style.css';;
 
 ```
 <template>
@@ -67,7 +67,7 @@
 </template>
 
 <script lang="ts" setup>
-  import { AButton } from 'vue-lib';
+  import { AButton } from 'vue-as-lib';
 
   function clickHandle() {
     console.log('button click!');

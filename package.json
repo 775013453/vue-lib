@@ -1,5 +1,5 @@
 {
-  "name": "vue-lib",
+  "name": "vue-as-lib",
   "private": false,
   "author": "almostSir",
   "version": "0.0.1",
@@ -7,12 +7,12 @@
   "files": [
     "dist"
   ],
-  "main": "./dist/vue-lib.umd.js",
-  "module": "./dist/vue-lib.es.js",
+  "main": "./dist/vue-as-lib.umd.js",
+  "module": "./dist/vue-as-lib.es.js",
   "exports": {
     ".": {
-      "import": "./dist/vue-lib.es.js",
-      "require": "./dist/vue-lib.umd.js"
+      "import": "./dist/vue-as-lib.es.js",
+      "require": "./dist/vue-as-lib.umd.js"
     },
     "./dist/style.css": {
       "import": "./dist/style.css",
@@ -27,7 +27,7 @@
   "dependencies": {
     "element-plus": "^2.7.7",
     "vue": "^3.4.31",
-    "vue-lib": "file:vue-lib-0.0.1.tgz"
+    "vue-as-lib": "file:vue-as-lib-0.0.1.tgz"
   },
   "devDependencies": {
     "@types/node": "^20.14.11",

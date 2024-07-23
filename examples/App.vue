@@ -10,7 +10,7 @@
 </template>
 
 <script lang="ts" setup>
-  import { AButton } from 'vue-lib';
+  import { AButton } from 'vue-as-lib';
 
   function clickHandle() {
     console.log('button click!');
