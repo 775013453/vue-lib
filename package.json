@@ -1,6 +1,6 @@
 {
   "name": "vue-lib",
-  "private": true,
+  "private": false,
   "author": "almostSir",
   "version": "0.0.1",
   "type": "module",
