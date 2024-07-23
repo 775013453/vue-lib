@@ -1,0 +1,40 @@
+{
+  "name": "vue-lib",
+  "private": true,
+  "author": "almostSir",
+  "version": "0.0.1",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/vue-lib.umd.js",
+  "module": "./dist/vue-lib.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/vue-lib.es.js",
+      "require": "./dist/vue-lib.umd.js"
+    },
+    "./dist/style.css": {
+      "import": "./dist/style.css",
+      "require": "./dist/style.css"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "element-plus": "^2.7.7",
+    "vue": "^3.4.31",
+    "vue-lib": "file:vue-lib-0.0.1.tgz"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.11",
+    "@vitejs/plugin-vue": "^5.0.5",
+    "sass": "^1.77.8",
+    "typescript": "^5.2.2",
+    "vite": "^5.3.4",
+    "vue-tsc": "^2.0.24"
+  }
+}
