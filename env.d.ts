@@ -1,6 +1,6 @@
 /**
  * description：vue声明文件
- * organization：CITC
+ * organization：self
  * author: almostSir
  * date：2024-07-23 12:35:31
  */

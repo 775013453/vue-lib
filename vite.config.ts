@@ -1,6 +1,6 @@
 /**
  * description：vite配置文件，配置路径及构建方式
- * organization：CITC
+ * organization：self
  * author: almostSir
  * date：2024-07-23 12:36:19
  */
